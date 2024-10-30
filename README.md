@@ -1,4 +1,7 @@
 # Bank-Management-System
+/*
+The Bank Management System (BMS) is a software application designed to streamline banking operations, including account management, transactions, and loan processing. It provides secure user authentication and a user-friendly interface for both customers and bank staff. Key features include deposit and withdrawal management, loan tracking, and comprehensive report generation. The system ensures data security through encryption and regular backups. Built with technologies like HTML, CSS, JavaScript, and a backend framework such as Node.js or Python, BMS can be deployed on cloud platforms. Overall, it enhances operational efficiency and customer satisfaction in financial institutions
+*/
 def is_valid(customer_account_number):
     try:
         customer_database = open("./database/Customer/customerDatabase.txt")
